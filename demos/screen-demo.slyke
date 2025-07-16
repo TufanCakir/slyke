@@ -1,0 +1,26 @@
+ <FastScreen 
+ label="test"
+ native={true}
+ screen={true}
+  fast={true}
+ icon={color: black, size: 50}
+ useDrive={true}
+ name="Home">
+  <Text>Welcome to FastScreen!</Text>
+  <Button id="goGame">Go to Game</Button>
+</FastScreen>
+
+<Screen name="Game">
+  <Text>This is a smooth Screen.</Text>
+  <Button id="toNative">Show Native Features</Button>
+</Screen>
+
+<Native>
+  <Button id="vibrate">Vibrate</Button>
+  <Button id="backHome">Back Home</Button>
+</Native>
+
+onTap={goGame} { navigate("Game") }
+onTap={toNative} { navigate("Native") }
+onTap={vibrate} { echo("Vibrating... [NATIVE CALL]") }
+onTap={backHome} { navigate("Home") }

@@ -1,0 +1,11 @@
+const name = Tufan
+const lastName = Cakir
+const age = 29
+
+Screen Home {
+  echo "Welcome to Slyke!"
+  echo "Slyke ist eine moderne einfache schnelle Programmiersprache"
+  echo "ich heiße name + lastName und bin age jahre alt."
+  echo "wie ist dein Name"
+  echo ""
+};

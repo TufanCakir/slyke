@@ -1,0 +1,18 @@
+import { Button, Text, Input, TextField, Image, View, Screen, SafeArea, FastScreen, PopUp, Animation, Nativ, Window, Browser, Dark, Light } from slyke
+
+<Button>
+<Text>
+<Input>
+<TextField>
+<Image>
+<View>
+<Screen>
+<SafeArea>
+<FastScreen>
+<PopUp>
+<Animation>
+<Nativ>
+<Window>
+<Browser>
+<Dark>
+<Light>

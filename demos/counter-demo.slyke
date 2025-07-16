@@ -1,0 +1,12 @@
+let count = 0
+
+function add(amount) {
+  count = count + amount
+  echo "Count: " + count
+}
+
+<Button id=add100>Add 100</Button>
+<Button id=add500>Add 500</Button>
+
+onTap={add100} { add(100) }
+onTap={add500} { add(500) }

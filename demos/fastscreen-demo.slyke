@@ -1,0 +1,10 @@
+<FastScreen animation="loading" color: rainbow size: 100 backgroundColor: transparent"/>
+<Native animation="swipe_right, swipe_left, swipe_bottom, swipe-top" color: purple size: 5 backgroundColor: yellow"/>
+<Screen animation="backFlip"/>
+
+<FastScreen animation="fadeSmooth, fadeIn, fadeOut" color: yellow size: 3 backgroundColor: red"/>
+<Native animation="drop"color: blue size: 50 backgroundColor: blue"/>
+<Screen animation="circle color: red size: 10 backgroundColor: cyan"/>
+
+
+

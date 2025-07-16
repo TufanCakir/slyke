@@ -1,0 +1,33 @@
+const test export function {
+   move.right
+   move.left
+   move.up
+   move.back
+   attack.sword
+   attack.bow
+   attack.waepon
+   block.schild
+}
+
+funktion {
+ animation{attack.sword} 
+  animation{attack.bow}     
+   animation{attack.waepon}   
+    animation{attack.schild}   
+  run: {attack}
+  move: {attack}
+}
+
+function {
+    [forward, back, left, right, back]
+}
+
+<FastScreen {
+    ${forward}
+    ${back}
+    ${left}
+    ${right}
+    ${back}
+}
+
+test()

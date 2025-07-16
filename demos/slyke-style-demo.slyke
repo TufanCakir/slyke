@@ -1,0 +1,34 @@
+<FastScreen styles.[container, button, buttonText, items]>
+    <Native style.content>
+        <Text>
+            hello world
+        </Text>
+    </Native>
+</FastScreen>
+
+const slykeStyles = create{{
+    container: {
+        flex: 1,
+        backgroundColor: black,
+        items: center,
+        content: center,
+    },
+    content: {
+        flex: 1,
+    },
+    button: {
+        flex: 2,
+        padding: 10,
+        margin: 5,
+    },
+    text: {
+        color: '#fff',
+    },
+    items: {
+        center,
+        right: 10,
+        left: 23,
+        top: 33,
+        bottom: 50,
+    },
+}}

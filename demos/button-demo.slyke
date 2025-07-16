@@ -1,0 +1,23 @@
+<PopUp 
+Window${5}="open ? close"
+/>
+
+<Button window={1}>
+<Text>hallo<Text>
+</Button> 
+
+<View window={3}>
+<Text>hallo<Text>
+</View> 
+
+<FastScreen window={4}>
+<Text>hallo<Text>
+</FastScreen> 
+
+<Nativ window={5}>
+<Text>hallo<Text>
+</Nativ> 
+
+<Screen window={2}>
+<Text>hallo<Text>
+</Screen> 

@@ -1,0 +1,14 @@
+<PopUp window={5} open ? close />
+
+<FastScreen window${1}>
+  <Text>Das ist Fenster 1</Text>
+</FastScreen>
+<View window${4}>
+  <Text>Das ist Fenster 4</Text>
+</View>
+<Button window={2}>
+  <Text>Button in Fenster 2</Text>
+</Button>
+<Screen window${5}>
+  <Text>Screen im 5. Fenster</Text>
+</Screen>
