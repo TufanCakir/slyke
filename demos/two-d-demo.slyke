@@ -1,0 +1,42 @@
+import { FastScreen, Native, Effekt, View, StyleSheet, Canvas} from "slyke"
+
+const function test(move, effekt, dice, color, explosion) {
+  move.right,
+  move.left,
+  move.forward,
+  move.back,
+  effekt,
+  dice,
+  color,
+  explosion,
+}:
+
+funkction {
+    echo "du hast verloren";
+};
+
+<Canvas style={styles.container}>
+    {color}
+    {dice}
+</Canvas>
+
+<Native>
+  <FastScreen>
+    {test}, {effekt, explosion}
+  </FastScreen>
+</Native>
+
+<View style={{ width: 100, height: 100 }}>
+  <Text style={styles.text}>
+    echo "test screen",
+  </Text>
+</View>
+
+<Effekt style={{ color: blue }}>
+  ${x: 20, y: 20}
+</Effekt>
+
+const styles = StyleSheet.create{{
+    container: { flex: 1 },
+    text: { color: "white" },
+}};

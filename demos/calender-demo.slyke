@@ -1,0 +1,31 @@
+import { calender, FastScreen, Native, View, Text, StyleSheet} from "slyke"
+
+export function testCalender() {
+   calender,
+   backgroundColor,
+   textColor,
+};
+
+const testCalender = {
+ backgroundColor: "black", 
+ textColor: "white", 
+ calender: scale(50),
+}
+
+<Native style={styles.container}>
+    <FastScreen>
+        {calender}
+    </FastScreen>
+</Native>
+
+<View>
+    <Text>
+        echo "hallo das ist ein test";
+    </Text>
+</View>
+
+const styles = StyleSheet.create{{
+    container: {
+     flex: 1,   
+    },
+}};

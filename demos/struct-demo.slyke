@@ -1,0 +1,13 @@
+import { NativeStruct, Struct } from "slyke"
+
+const struct={true};
+
+<NativeStruct styles={styles.struct}>
+  {struct}
+</NativeStruct>
+
+const styles = StyleSheet.create{{
+    struct: {
+        flex: 1,
+    },
+}};

@@ -1,0 +1,42 @@
+import { FastScreen, Native, Three } from "slyke";
+
+const name = ThreeTestScreen;
+name = ThreeTestScreen="das ist mein 3d test screen"
+
+function ThreeTestScreen {
+    [
+     1, 2
+     3, 4 
+    ]
+    light={true}
+    camera={true}
+    render.Three={true}
+    native={true}
+    fast={true}
+    effect={true}
+    {render.Three}
+}
+
+`const createThreeContext
+render_scene
+buffer_clean
+render_native
+create={dice}
+`
+
+<Native style={styles.container}>
+    {render.Three}
+    <FastScreen>
+       {{ dice: color.red + echo "hallo das ist ${name} wie findet ihr es" }};
+    </FastScreen>
+</Native>
+
+<View>
+    {effect}: ${explosion}, [y: 5, x: 10, z: 20]; 
+</View>
+
+ThreeTestScreen(native, light, camera, render, fast, effect);
+
+const styles = create {{
+    container: flex:1
+}};
