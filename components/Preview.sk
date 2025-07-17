@@ -1,0 +1,16 @@
+echo "Hallo, ich bin Slyke!"
+echo ${" echo ist eine neu möcklichkeit für destruction text in template strings und backticks"} 
+
+wiso so was kann das ganz einfach 
+
+es ermöglich euch voll dynamisch zu sein was texte betrifff
+
+ich kann so Hallo ich bin {name} und bin {age} jahre alt
+name und age sind variablen
+
+Herzlich Willkommen auf meiner Seite.
+wollt ihr sehen was ich 
+kann ich zeig es euch ich render ein Calculator für euch
+
+<Calculator />
+  

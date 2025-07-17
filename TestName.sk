@@ -1,0 +1,9 @@
+const name = Tufan
+const lastName = Cakir
+const age = 29
+
+echo "ich heiße {name} {lastName} und bin {age} jahre alt."
+echo ""
+
+const Tufan Cakir ich bin 29 jahre alt
+echo $[name + lastName + age]
